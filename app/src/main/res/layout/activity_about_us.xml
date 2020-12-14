@@ -125,6 +125,7 @@
                         android:layout_height="100dp"
                         android:layout_marginStart="5dp"
                         android:layout_marginEnd="5dp"
+                        android:visibility="gone"
                         android:background="@drawable/rectangle_white"
                         android:elevation="3dp">
 
@@ -246,6 +247,7 @@
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="5dp"
+                        android:visibility="gone"
                         android:background="@drawable/rectangle_white"
                         android:elevation="3dp">
 
@@ -302,6 +304,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
                         android:layout_marginStart="5dp"
+                        android:visibility="gone"
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="5dp"
                         android:background="@drawable/rectangle_white"

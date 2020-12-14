@@ -88,11 +88,11 @@ public class GalleryActivity  extends AppCompatActivity {
 
         ViewPagerAdapter adapter = new ViewPagerAdapter(activity.getSupportFragmentManager(), BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
         adapter.addFragment(new InstaDownloadedFragment(), "Instagram");
-        adapter.addFragment(new WhatsAppDowndlededFragment(), "Whatsapp");
+//        adapter.addFragment(new WhatsAppDowndlededFragment(), "Whatsapp");
         adapter.addFragment(new TikTokDownloadedFragment(), "TikTok");
         adapter.addFragment(new FBDownloadedFragment(), "Facebook");
-        adapter.addFragment(new TwitterDownloadedFragment(), "Twitter");
         adapter.addFragment(new LikeeDownloadedFragment(), "Likee");
+        adapter.addFragment(new TwitterDownloadedFragment(), "Twitter");
 
         viewPager.setAdapter(adapter);
         viewPager.setOffscreenPageLimit(4);

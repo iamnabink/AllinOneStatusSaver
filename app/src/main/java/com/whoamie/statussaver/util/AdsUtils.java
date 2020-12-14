@@ -65,7 +65,6 @@ public class AdsUtils {
             @Override
             public void onAdLoaded() {
                 // Code to be executed when an ad finishes loading.
-
                 mInterstitialAd.show();
             }
 
@@ -92,7 +91,7 @@ public class AdsUtils {
 
             @Override
             public void onAdClosed() {
-                // Code to be executed when the interstitial ad is closed.
+//                mInterstitialAd.loadAd(new AdRequest.Builder().build());
             }
         });
 

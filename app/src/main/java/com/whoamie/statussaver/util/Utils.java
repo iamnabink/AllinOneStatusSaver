@@ -201,9 +201,10 @@ public class Utils {
         final String appLink = "\nhttps://play.google.com/store/apps/details?id=" + context.getPackageName();
         Intent sendInt = new Intent(Intent.ACTION_SEND);
         sendInt.putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.app_name));
-        sendInt.putExtra(Intent.EXTRA_TEXT, context.getString(R.string.share_app_message) + appLink);
+        sendInt.putExtra(Intent.EXTRA_TEXT, "https://play.google.com/store/apps/details?id=com.whoamie.statussaver");
+
         sendInt.setType("text/plain");
-        context.startActivity(Intent.createChooser(sendInt, "Share"));
+        context.startActivity(Intent.createChooser(sendInt, "Share with"));
     }
 
     public static void OpenApp(Context context,String Package) {
